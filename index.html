@@ -8,7 +8,7 @@
 <script src="./app.js"></script>
 <script>
 function ok(){
-  document.date.innerText=id2date(document.form.id.value);
+  document.getElementById("date").innerText=id2date(document.form.id.value);
 }
 </script>
 </head>
@@ -17,7 +17,7 @@ function ok(){
   ID:<input type="text" name="id" value=""><br>
   <input type="button" value="OK" onclick="ok()"><br>
 </form>
-<div name="date">
+<div id="date">
 </div>
 </body>
 </html>
